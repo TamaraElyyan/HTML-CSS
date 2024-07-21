@@ -1,0 +1,105 @@
+body {
+    background-color:lightgray;
+    font-family:"sans-serif";
+    color: #656565;
+    margin: 10px;
+    font-size: 18px;
+}
+h1 {
+    font-size: 20px;
+
+}
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+img {
+    width: 100% ;
+}
+
+.Name {
+    position: absolute;
+    bottom: 30px;
+    left: 40px;
+    height: 580px;
+    font-size: 30px;
+    color: black;
+}
+
+.PersonalInfo>div {
+    padding: 10px 10px 10px 0px;
+
+}
+
+.left-column, .right-column {
+    background-color:white;
+
+    margin: 10px;
+}
+
+.left-column{
+    width: 110%;
+    display: inline-block;
+    float: left;
+}
+
+i{
+    background-color: white;
+    color: #009688;
+    padding-right: 12px;
+}
+
+hr {
+    opacity: 0.2;
+}
+
+p {
+    font-size: 25px;
+}
+
+h3 {
+    color: #009688;
+    font-family: "sans-serif";
+}
+
+.button{
+    background-color: #009688;
+    color: white;
+    padding: 5px;
+}
+
+
+
+.skill-bar-background, .Languages-bar-background{
+    background-color: #d3d3d3;
+    border-radius: 25px;
+    position: relative;
+}
+
+.skill-bar, .bar-foreground{
+    height: 20px;
+    border-radius: 25px;
+    background-color: #009688;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 15px;
+}
+
+.PersonalInfo, .Skills, .Languages, .right-column{
+    padding: 10px 20px 5px 20px;
+}
+
+.Footer >i, .Footer,.Footer>p, .Footer>a{
+    background-color: #009688;
+    color: white;
+    text-align: center;
+    margin: 10px 0 0 0;
+    padding: 5px 0 5px 0;
+    i:hover{
+        opacity: 0.7;
+    }
+}
+
